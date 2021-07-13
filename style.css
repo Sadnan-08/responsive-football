@@ -1,0 +1,40 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Common styles and utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+
+/* 1st section styles */
+.first-section{
+    background-color: rgba(0, 0, 139, 0.822);
+    display: flex;
+}
+.copa-america{
+    color: white;
+} 
+.copa-america h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.copa-america a{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 10px 24px;
+}
+.copa-america i{
+    padding-left: 8px;
+}
+.banner img{
+    width: 556px;
+}
