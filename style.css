@@ -17,7 +17,6 @@ body{
 ------------------------- */
 .first-section{
     background-color: #2D25A0;
-
     display: flex;
     margin-bottom: 60px;
 }
@@ -48,11 +47,12 @@ body{
 .second-section{
     padding-left: 9%;
     padding-right: 9%;
+    margin-bottom: 140px;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 27px;
+    grid-row-gap: 25px;
 }
 .player{
     display: flex;
@@ -76,4 +76,30 @@ body{
 }
 .player-detail p{
     color: #6C6C6C;
+}
+/*------------------
+    footer styles
+--------------------*/
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.football-logo{
+    margin-bottom: 30px;
+}
+.football-logo img{
+    width: 484px;
+    height: 110px;
+}
+.social-links i{
+    font-size: 27px;
+    margin-right: 15px;
+    color: #444547;
+    ;
+}
+.copyright p{
+    font-size: 18px;
+    margin: 20px;
 }
