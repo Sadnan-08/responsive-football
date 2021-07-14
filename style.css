@@ -26,7 +26,19 @@ body{
 .copa-america h1{
     font-size: 64px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    transition: .4s;
+}
+.copa-america h1:hover{
+    transform:translate(0px, -25px)
+}
+.copa-america p{
+    width: 250px;
+    margin-left: 8px;
+    transition: .3s;
+}
+.copa-america p:hover{
+    transform: scale(1.2);
 }
 .copa-america a{
     background-color: #E02C6D;
@@ -40,19 +52,24 @@ body{
 }
 .banner img{
     width: 556px;
+    transition: 1s;
+}
+.banner img:hover{
+    transform: rotate(360deg) scale(1.1);
 }
 /*-----------------------
     2nd section styles
 -------------------------*/
 .second-section{
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 140px;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 25px;
+    grid-column-gap: 30px; 
 }
 .player{
     display: flex;
