@@ -46,6 +46,7 @@ body{
     color: white;
     font-weight: 400;
     padding: 10px 24px;
+    border-radius: 5px;
 }
 .copa-america i{
     padding-left: 8px;
@@ -63,10 +64,10 @@ body{
 .second-section{
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 140px;
+    margin-bottom: 130px;
 }
 .second-section h2{
-    font-size: 52px;
+    font-size: 50px;
     text-align: center;
 }
 .players{
@@ -98,6 +99,63 @@ body{
 .player-detail p{
     color: #6C6C6C;
 }
+/*-----------------------
+    3rd section styles
+------------------------*/
+.third-section{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 140px;
+}
+.balls{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+}
+.ball{ 
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding-left: 6%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    height: 450px; 
+}
+.section-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.ball-image img{
+    width: 250px;
+    height: 234px;
+}
+.ball-info h3{
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+.ball-info p{
+    color: #585859;
+    margin-top: 5px;
+}
+.ball-info a{
+    text-decoration: none;
+    color: white; 
+    background-color: #E02C6D;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin-top: 20%;
+    transition: .2s;
+}
+.ball-info a:hover{
+    font-size: 24px;
+    padding: 7px 28px;
+}
+.buy-button{
+    padding-top: 11px;
+    margin-bottom: 30px;
+}
+
 /*------------------
     footer styles
 --------------------*/
