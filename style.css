@@ -184,7 +184,9 @@ body{
 /*-------------------
     Media Queries
 --------------------*/
-/* For Phones */
+/*----------------
+    For Phones
+------------------*/
 @media only screen and (max-width: 650px) {
     /* 1st section styles */
     section{
@@ -200,10 +202,10 @@ body{
         font-size: 52px;
     }
     .copa-america p{
-        margin-bottom: 25%;
+        margin-bottom: 20%;
     }
     .banner img{
-        width: 100%;
+        width: 98%;
     }
     /* 2nd section styles */
     .second-section{
@@ -234,7 +236,9 @@ body{
         margin-left: 6%;
     }
 }
-/* For tablets */
+/*-------------------
+    For tablets
+--------------------*/
 @media only screen and (min-width: 650px) and (max-width: 992px) {
     /* 1st section styles */
     section{
@@ -250,12 +254,16 @@ body{
         margin-bottom: 25%;
     }
     .banner img{
-        width: 95%;
+        width: 94%;
     }
     /* 2nd section styles */
     .players{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 5px;
+    }
+    .player{
+        justify-self: center;
+        margin-left: 0%;
     }
     .second-section{
         padding-left: 0;
@@ -263,10 +271,6 @@ body{
     /* third section styles  */
     .third-section{
         padding-left: 0;
-    }
-    .player{
-        justify-self: center;
-        margin-left: 0%;
     }
     .balls{
         grid-template-columns: repeat(2, 1fr);
@@ -277,4 +281,38 @@ body{
         justify-self: center;
         padding-right: 5%;
     }
+}
+/*-------------------
+    for ipad pro
+--------------------*/
+@media only screen and (min-width: 1020px) and (max-width: 1280px){
+    /* 1st section styles */
+    .copa-america h1{
+        font-size: 56px;
+    }
+    .banner img{
+        margin-top: 8%;
+    }
+    /* 2nd section styles */
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 35px;
+    }
+    .second-section{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    /* 3rd section styles */
+    .balls{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 5px;
+    }
+    .ball{
+        justify-self: center;
+        padding-right: 5%;
+        padding: 10%;
+    }
+
 }
