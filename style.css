@@ -7,9 +7,6 @@ body{
 }
 .half-width{
     width: 50%;
-    padding-left: 7%;
-    padding-top: 4%;
-    padding-bottom: 8%;
 }
 
 /*-----------------------
@@ -19,6 +16,9 @@ body{
     background-color: #2D25A0;
     display: flex;
     margin-bottom: 60px;
+    padding-left: 7%;
+    padding-top: 4%;
+    padding-bottom: 8%;
 }
 .copa-america{
     color: white;
@@ -52,7 +52,7 @@ body{
     padding-left: 8px;
 }
 .banner img{
-    width: 556px;
+    width: 93%;
     transition: 1s;
 }
 .banner img:hover{
@@ -110,7 +110,7 @@ body{
 .balls{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 30px;
+    grid-column-gap: 35px;
 }
 .ball{ 
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
@@ -170,7 +170,6 @@ body{
 }
 .football-logo img{
     width: 484px;
-    height: 110px;
 }
 .social-links i{
     font-size: 27px;
@@ -181,4 +180,101 @@ body{
 .copyright p{
     font-size: 18px;
     margin: 20px;
+}
+/*-------------------
+    Media Queries
+--------------------*/
+/* For Phones */
+@media only screen and (max-width: 650px) {
+    /* 1st section styles */
+    section{
+        width: 100%;
+    }
+    .half-width{
+        width: 90%;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .copa-america h1{
+        font-size: 52px;
+    }
+    .copa-america p{
+        margin-bottom: 25%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    /* 2nd section styles */
+    .second-section{
+        padding-left: 0;
+    } 
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        justify-self: center;
+        margin-left: 0%;
+    }
+    /* 3rd section styles */
+    .third-section{
+        padding-left: 0;
+    }
+    .balls{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 35px;
+    }
+    .ball{
+        justify-self: center;
+        padding-right: 5%;
+    }
+    /* footer styles */
+    .football-logo img{
+        width: 80%;
+        margin-left: 6%;
+    }
+}
+/* For tablets */
+@media only screen and (min-width: 650px) and (max-width: 992px) {
+    /* 1st section styles */
+    section{
+        width:100%;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .half-width{
+        width: 90%;
+    }
+    .copa-america p{
+        margin-bottom: 25%;
+    }
+    .banner img{
+        width: 95%;
+    }
+    /* 2nd section styles */
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+    }
+    .second-section{
+        padding-left: 0;
+    }
+    /* third section styles  */
+    .third-section{
+        padding-left: 0;
+    }
+    .player{
+        justify-self: center;
+        margin-left: 0%;
+    }
+    .balls{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 35px;
+        grid-column-gap: 5px;
+    }
+    .ball{
+        justify-self: center;
+        padding-right: 5%;
+    }
 }
