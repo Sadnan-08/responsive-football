@@ -30,7 +30,7 @@ body{
     transition: .4s;
 }
 .copa-america h1:hover{
-    transform:translate(0px, -25px)
+    transform:translate(0px, -30px)
 }
 .copa-america p{
     width: 250px;
