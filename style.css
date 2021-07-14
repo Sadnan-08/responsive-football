@@ -10,7 +10,7 @@ body{
 }
 
 /*-----------------------
-    1st section styles
+    1st section/header styles
 ------------------------- */
 .first-section{
     background-color: #2D25A0;
@@ -98,6 +98,7 @@ body{
 }
 .player-detail p{
     color: #6C6C6C;
+    text-align: center;
 }
 /*-----------------------
     3rd section styles
